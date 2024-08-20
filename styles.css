@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+  background-image: url("your-background-image.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  margin: 0;
+}
+.h1 {
+  justify-content: center;
+  background-position: center;
+}
+
+.container {
+  max-width: 500px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Slightly transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  background-color: #d81697;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
